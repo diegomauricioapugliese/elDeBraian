@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: white;
+    margin-top: 32px;
+    width: 80%;
+    height: 500px;
+    border-radius: 24px;
+    box-shadow: 00px 0px 10px black;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    /* height: 10%; */
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    flex: 0.1;
+}
+
+main{
+    background-color: rgb(157, 173, 173);
+    /* height: 77%; */
+    border-radius: 24px;
+    /* overflow: hidden; */
+    flex: 0.9;
+}
+
+.contenedorFacturas {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px;
+    align-items:center;
+   
+}
+
+.facturas{
+    background-color:whitesmoke;
+    border-radius:12px;
+    display:flex;
+    padding:16px;
+    justify-content:space-between;
+    width:80%;
+}
